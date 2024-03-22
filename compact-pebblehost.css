@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name         Compact Pebblehost Panel
+@version      1.0.0
+@namespace    compact-pebblehost
+@description  Makes the Pebblehost Panel more compact, so you can see the content better!
+@author       GhostIsBeHere
+@license      CC BY-NC-SA 4.0
+==/UserStyle== */
+
+@-moz-document url-prefix("https://panel.pebblehost.com") {
 /* Remove unneccecary space */
 
 /* Remove some margins */
@@ -44,4 +54,5 @@ div.row:nth-child(9) > div:nth-child(1) {
 /* Make console bigger */
 iframe.console {
     height: 94vh;
+}
 }
