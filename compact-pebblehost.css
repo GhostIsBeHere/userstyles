@@ -1,0 +1,47 @@
+/* Remove unneccecary space */
+
+/* Remove some margins */
+.breadcrumb, #users-grid, #command-grid, #player-grid, .pluginListBox, #phw4506b0f7e775d0ca {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+div.col-md-12:nth-child(2) > div:nth-child(1), .detail-view {
+    margin-bottom: 0 !important;
+}
+#server-breadcrumb {
+    padding-top: 0;
+    margin-top: 0;
+}
+/* Make some margins smaller */
+div.row:nth-child(7), div.mt-4:nth-child(1), #phw4616678d503d2629, div.bg-dark:nth-child(14), div.bg-dark:nth-child(17), div.bg-dark:nth-child(10), div.bg-dark:nth-child(16), div.audit-card, div.col-md-12:nth-child(2) > div:nth-child(1), #subserver-ajax, .new-alert-red, #configs-grid, .card {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+.bungee-autoconfigure {
+    margin-bottom: 0.5rem !important;
+}
+.col-md-9, div.col-md-6:nth-child(2) {
+    padding-left: 0;
+}
+.container-fluid {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+}
+/* Hide separators */
+.seperator {
+    display: none;
+}
+/* Manually remove breaks */
+#server-form > br:nth-child(5), /* #content > br:nth-child(6), #content > br:nth-child(7), #content > br:nth-child(13), #content > br:nth-child(14), #content > br:nth-child(3) */
+#content > br {
+    display: none;
+}
+/* Fix lack of some breaks */
+div.row:nth-child(9) > div:nth-child(1) {
+    padding-bottom: 0.55rem
+}
+
+/* Make console bigger */
+iframe.console {
+    height: 94vh;
+}
