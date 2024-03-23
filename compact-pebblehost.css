@@ -23,7 +23,7 @@ div.col-md-12:nth-child(2) > div:nth-child(1), .detail-view {
     margin-top: 0;
 }
 /* Make some margins smaller */
-div.row:nth-child(7), div.mt-4:nth-child(1), #phw4616678d503d2629, div.bg-dark:nth-child(14), div.bg-dark:nth-child(17), div.bg-dark:nth-child(10), div.bg-dark:nth-child(16), div.audit-card, div.col-md-12:nth-child(2) > div:nth-child(1), #subserver-ajax, .new-alert-red, #configs-grid, .card {
+div.row:nth-child(7), div.mt-4:nth-child(1), #phw4616678d503d2629, div.bg-dark:nth-child(14), div.bg-dark:nth-child(17), div.bg-dark:nth-child(10), div.bg-dark:nth-child(16), div.audit-card, div.col-md-12:nth-child(2) > div:nth-child(1), #subserver-ajax, .new-alert-red, #configs-grid, .card, .alert {
     margin-top: 0.5rem !important;
     margin-bottom: 0.5rem !important;
 }
