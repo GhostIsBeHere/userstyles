@@ -15,5 +15,6 @@
     }
     .ad-parent>.absolute {
         border-radius: 2rem;
+        height: 3rem
     }
 }
