@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name         Tuck Away The Ads
+@namespace    tuck-away-ads
+@version      1.0.0
+@description  Hide Modrinth's ads while still supporting!
+@author       GhostIsBeHere
+@homepageURL  https://github.com/GhostIsBeHere/userstyles
+@license      CC BY-NC-SA 4.0
+==/UserStyle== */
+
+@-moz-document domain("modrinth.com") {
+    .ad-parent {
+        height: 0;
+        margin-bottom: 0;
+    }
+    .ad-parent>.absolute {
+        border-radius: 2rem;
+    }
+}
