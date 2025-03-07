@@ -8,10 +8,14 @@
 @license      CC BY-NC-SA 4.0
 ==/UserStyle== */
 @-moz-document domain("modrinth.com") {
-.ad-parent, #modrinth-rail-1 {
+#modrinth-rail-1 {
     height: .1px;
     margin: 0;
     padding: 0;
     pointer-events: none;
 }
+    .ad-parent {
+        height: 0;
+        padding-left: 200vw
+    }
 }
